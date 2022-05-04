@@ -256,8 +256,8 @@ contract TripolarTreasury is ContractGuard {
         tripolarPriceCeiling = tripolarPriceOne.mul(101).div(100);
 
         // Dynamic max expansion percent
-        supplyTiers = [0, 100000e18, 130000e18, 165000e18, 210000e18, 250000e18, 290000e18, 330000e18];
-        maxExpansionTiers = [250, 225, 200, 175, 150, 125, 100, 75];
+        supplyTiers = [0, 100000e18, 130000e18, 165000e18, 210000e18, 250000e18, 290000e18, 330000e18, 990000e18];
+        maxExpansionTiers = [250, 225, 200, 175, 150, 125, 100, 75, 50];
 
         maxSupplyExpansionPercent = 400; // Upto 4.0% supply for expansion
 
